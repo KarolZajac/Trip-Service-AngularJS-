@@ -1,0 +1,200 @@
+{
+  "trips": [
+    {
+      "name": "Zwiedzanie Warszawy",
+      "country": "Polska",
+      "dateStart": [
+        "2020",
+        "12",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "13",
+        "05"
+      ],
+      "slots": 10,
+      "reserved": 8,
+      "image": "https://plotkibiznesowe.pl/wp-content/uploads/2020/04/Warszawa.jpg",
+      "rate": [
+        5,
+        4
+      ],
+      "price": 50,
+      "description": "Jednodniowe zwiedzanie Warszawy, bardzo ciekawa wycieczka.",
+      "id": 13
+    },
+    {
+      "name": "Zwiedzanie Wiednia",
+      "country": "Austria",
+      "dateStart": [
+        "2020",
+        "9",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "9",
+        "25"
+      ],
+      "slots": 5,
+      "reserved": 5,
+      "image": "https://ocdn.eu/pulscms-transforms/1/8hkk9kpTURBXy80ZTJmNzM0YTYzMTRkYzQ1ZjE3M2NmMTNiZDE4ZGZlNS5qcGeTlQMAzKvNFWDNDAaTBc0DFM0BvJMJpjZlNzIxNwaBoTAB/wieden.jpg",
+      "rate": [
+        2,
+        5,
+        5,
+        5
+      ],
+      "price": 700,
+      "description": "Wycieczka do Wiednia, zwiedzanie, all incusive, hotel 3-gwiazkowy",
+      "id": 14
+    },
+    {
+      "name": "ZAKOPANE",
+      "country": "Polska",
+      "dateStart": [
+        "2021",
+        "05",
+        "05"
+      ],
+      "dateEnd": [
+        "2021",
+        "05",
+        "15"
+      ],
+      "slots": 20,
+      "reserved": 3,
+      "image": "https://ocdn.eu/pulscms-transforms/1/8EGk9kqTURBXy9iMjUzMzQ1MDc3YmNhNjY1MDQ5NGM2OGY3YTZiODkzOS5qcGVnk5UDABzNCLHNBOOTBc0DFM0BvJMJpmVjNzU4YgaBoTAB/tatry.jpg",
+      "rate": [
+        5,
+        5,
+        5
+      ],
+      "price": 800,
+      "description": "Wyjazd w góry. Tatry ! Zakopane! Trudne szlaki ! ",
+      "id": 15
+    },
+    {
+      "name": "Poznaj Berlin !",
+      "country": "Niemcy",
+      "dateStart": [
+        "2020",
+        "12",
+        "10"
+      ],
+      "dateEnd": [
+        "2020",
+        "12",
+        "20"
+      ],
+      "slots": 7,
+      "reserved": 1,
+      "image": "https://gfx.radiozet.pl/var/radiozet/storage/images/podroze-radia-zet/berlin-atrakcje-i-zabytki.-11-miejsc-ktore-warto-zobaczyc/1025015-1-pol-PL/Co-warto-zobaczyc-w-Berlinie-Oto-11-najciekawszych-miejsc_article.jpg",
+      "rate": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "price": 500,
+      "description": "Wycieczka do Berlina, Zwiedzanie zabytkowych budowli, zabawa, impreza",
+      "id": 16
+    },
+    {
+      "name": "Wyjazd do Dubaju",
+      "country": "Zjednoczone Emiraty Arabskie",
+      "dateStart": [
+        "2020",
+        "06",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "07",
+        "05"
+      ],
+      "slots": 15,
+      "reserved": 1,
+      "image": "https://turystyka.rp.pl/wp-content/uploads/2020/07/Dubaj-AFP-000_1UT6PJ.jpg",
+      "rate": [
+        4,
+        4,
+        3
+      ],
+      "price": 5999,
+      "description": "Wypad na niezapomniane chwile w dubaju! Plaża, all inclusive, hotel 5 gwiazdek zwiedzanie, przewodnik w cenie",
+      "id": 17
+    },
+    {
+      "name": "Plazowanie w Zadarze",
+      "country": "Chorwacja",
+      "dateStart": [
+        "2020",
+        "7",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "8",
+        "05"
+      ],
+      "slots": 10,
+      "reserved": 1,
+      "image": "https://www.kierunekchorwacja.pl/wp-content/uploads/2018/08/zadar-8.jpg",
+      "rate": [
+        4,
+        5
+      ],
+      "price": 2599,
+      "description": "Miesiac plazowania w CHorwacji! Zadar! piekne miasto ! wiele atrakcji",
+      "id": 18
+    },
+    {
+      "name": "Plazowanie w Zadarze 2",
+      "country": "Chorwacja",
+      "dateStart": [
+        "2020",
+        "07",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "08",
+        "05"
+      ],
+      "slots": 15,
+      "reserved": 1,
+      "image": "https://www.kierunekchorwacja.pl/wp-content/uploads/2018/08/zadar-8.jpg",
+      "rate": [
+        5
+      ],
+      "price": 2699,
+      "description": "Miesiac plazowania w CHorwacji! Zadar! piekne miasto ! wiele atrakcji DODATKOWO miejsce i parasol na plazy przez caly czas !!!",
+      "id": 19
+    },
+    {
+      "name": "Stadion Bayernu Monachium",
+      "country": "Niemcy",
+      "dateStart": [
+        "2020",
+        "12",
+        "05"
+      ],
+      "dateEnd": [
+        "2020",
+        "13",
+        "05"
+      ],
+      "slots": 8,
+      "reserved": 1,
+      "image": "https://bi.im-g.pl/im/32/22/16/z23208242V,Nowe-krzeselka-na-stadionie-Bayernu-Monachium.jpg",
+      "rate": [
+        3
+      ],
+      "price": 139,
+      "description": "Zwiedzanie stadionu  Bayernu . Zapraszamy ",
+      "id": 20
+    }
+  ]
+}
