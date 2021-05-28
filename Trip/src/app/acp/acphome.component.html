@@ -1,0 +1,31 @@
+<app-header></app-header>
+<h1>Logowanie:</h1>
+<form [formGroup]="formSettings" (ngSubmit)="onSettingsSubmit()">
+  <div class="form-group">
+    <label for="sessionInput">Wybierz typ logowania</label>
+    <select class="form-control" id="sessionInput" formControlName="session">
+      <option value="0">LOCAL</option>
+      <option value="1">SESSION</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Zapisz</button>
+</form>
+<h1>Users:</h1>
+<ul>
+  <li *ngFor="let user of users">
+    {{user.name}}
+    <form [formGroup]="formUser[user.uid]">
+      <div class="form-group">
+        <label for="user{{user.uid}}Input">Rola:</label>
+        <select class="form-control" id="user{{user.uid}}Input" formControlName="role" (change)="userRoleChanged(user)">
+          <option value="0">Admin</option>
+          <option value="1">Employee</option>
+          <option value="2">VIP</option>
+          <option value="3">Reader</option>
+        </select>
+      </div>
+    </form>
+  </li>
+</ul>
+
+<app-footer></app-footer>

@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<div *ngIf="userInfo">
+    <h1>Informacje o koncie:</h1>
+    <p>Nazwa użytkownika:</p>
+    <h4>{{userInfo.name}}</h4>
+    <p>Adresm e-mail:</p>
+    <h4>{{userInfo.email}}</h4>
+    <p>Rola w systemie:</p>
+    <h4>{{userInfo.role}}</h4>
+</div>
+
+
+<app-footer></app-footer>

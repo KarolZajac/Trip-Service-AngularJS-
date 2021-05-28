@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div class="product" *ngFor="let trip of cart">
+    <p>Trip: {{trip.name}}   in {{trip.country}}</p>
+    <p>Cost: {{trip.price}} $</p>
+</div>
+<app-footer></app-footer>

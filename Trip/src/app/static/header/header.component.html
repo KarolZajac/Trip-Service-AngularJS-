@@ -1,0 +1,23 @@
+<div class="header">
+    <h1>TripBlaBla</h1>
+    <div class="menu">
+      <ul>
+        <li><a routerLink="/home">Home</a></li>
+
+        <li><a routerLink="/cart">Cart</a></li>
+        <ul class="userbox" *ngIf="isLoggedIn() && userInfo">
+          <li><a routerLink="/user/profile">{{userInfo.name}}</a></li>
+          <li><a routerLink="/user/logout">Wyloguj</a></li>
+          <li *ngIf="userInfo.role === 'admin' || userInfo.role === 'employee'"><a routerLink="/addNewTrip">Add New Trip</a></li>
+          <ul>
+            <li *ngIf="userInfo.role === 'admin'"><a routerLink="/acp">Panel Administracyjny</a></li>
+            <li *ngIf="userInfo.role === 'admin' || userInfo.role === 'employee'"><a routerLink="/tripManagement">Zarządzanie wycieczkami</a></li>
+          </ul>
+        </ul>
+        <ul class="userbox" *ngIf="!isLoggedIn() && !userInfo">
+          <li><a routerLink="/user/login">Logowanie</a></li>
+          <li><a routerLink="/user/register">Rejestracja</a></li>
+        </ul>
+      </ul>
+    </div>
+</div>

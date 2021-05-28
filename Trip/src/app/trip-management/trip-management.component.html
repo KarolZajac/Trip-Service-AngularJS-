@@ -1,0 +1,54 @@
+<app-header></app-header>
+<span class="text-center">
+  <h1>Modyfikuj dane wycieczek</h1>
+  <form [formGroup]="selectTrip" (change)="changedSelectTrip()">
+    <div class="form-group">
+    <label for="tripSelect">Wybierz wycieczkę:</label>
+    <select class="form-control" id="tripSelect" formControlName="trip">
+      <option *ngFor="let trip of trips;let i = index;" value="{{i}}">{{trip.name}}</option>
+    </select>
+  </div>
+  </form>
+</span>
+<div *ngIf="selectedTrip">
+  <form  [formGroup]="tripForm" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control" id="inputName" formControlName="name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputCountry">Country</label>
+        <input type="text" class="form-control" id="inputCountry" formControlName="country" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputStartDate">Start date</label>
+        <input type="text" class="form-control" id="inputStartDate" formControlName="startDate" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEndDate">End date</label>
+        <input type="text" class="form-control" id="inputEndDate" formControlName="endDate" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputTripSlots">Slots</label>
+        <input type="text" class="form-control" id="inputTripSlots" formControlName="slots"  required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputTripPrice">Price</label>
+        <input type="text" class="form-control" id="inputTripPrice" formControlName="price" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputTripDescription">Description</label>
+        <input type="text" class="form-control" id="inputTripDescription" formControlName="description" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputImageURL">imageURL</label>
+        <input type="text" class="form-control" id="inputImageURL" formControlName="imageURL" >
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>
+
+<app-footer></app-footer>
+
